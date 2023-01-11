@@ -15,7 +15,7 @@ uls.forEach((ul) => {
         target.classList.contains("active") ||
         target.classList.contains("follow")
       ) {
-      
+      return;
       }
 
       ul.parentNode.setAttribute(
