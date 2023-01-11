@@ -34,9 +34,8 @@ footer{
     align-self: flex-end;
     position: fixed;   
 }
-.navigation{
+.navigation {
     position: relative;
-    width: 400px; /*400 -> 980*/
     height: 70px; /* 70 -> 171.5*/
     background: var(--cln);
     display: flex;
@@ -150,7 +149,7 @@ footer{
   width: 100%;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 425px) {
   /* For tablets: */
   .col-s-1 {width: 8.33%;}
   .col-s-2 {width: 16.66%;}
