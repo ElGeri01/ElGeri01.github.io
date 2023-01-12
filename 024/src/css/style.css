@@ -28,6 +28,7 @@ Body {
     align-items: center;
     min-height: 100vh;
     background: var(--clm);
+    height: 100vh;
 }
 footer{
     display: flex;
