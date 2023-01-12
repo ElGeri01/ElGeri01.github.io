@@ -7,21 +7,26 @@ header{
     position: relative;
     height: 10%; /* 70 -> 171.5*/
     background: var(--cln);
-    display: block;
-    justify-content: center;
+    display: flex;
+    justify-content: flex-start;
     align-items: center;
     border-radius: 10px;
 }
-.cabecera ul{
+.cabecera .contenedor{
     display: flex;/*350 -> 930*/
-    margin: auto;
+    margin-left: 5%;
+    margin-right: 5%;
 }
-.cabecera ul li {
-    list-style: none;
+.cabecera .contenedor .L{
     position: relative;
+    width: 25%;
     height: 10%; /*70 -> 171.5*/
     z-index: 1;
 }
-.title{
+.cabecera .contenedor .C{
+    position: relative;
+    width: 40%;
+    height: 10%; /*70 -> 171.5*/
+    z-index: 1;
     color: var(--cla);
 }
