@@ -6,12 +6,12 @@
 }
  
  :root{
-    --cla: rgb(255,215,0);
-    --clm: rgb(55, 35, 0);
-    --clmt: rgba(0, 0, 0, 0.25);
-    --cln: rgb(0, 0, 0);
-    --clb: rgb(255,255,255);
-    --clv: rgb(0,255,0);
+    --cla: #ffd700;
+    --clm: #372300;
+    --clmt: #00000040;
+    --cln: #000000;
+    --clb: #ffffff;
+    --clv: #00ff00;
     --clr: #222327;
  }
 
@@ -36,7 +36,7 @@ footer{
 }
 .navigation {
     position: relative;
-    height: 70px; /* 70 -> 171.5*/
+    height: 10%; /* 70 -> 171.5*/
     background: var(--cln);
     display: block;
     justify-content: center;
@@ -154,7 +154,7 @@ footer{
   /* For tablets: */
   .col-s-1 {width: 8.33%;}
   .col-s-2 {width: 16.66%;}
-  .col-s-3 {width: 20%;}
+  .col-s-3 {width: 25%;}
   .col-s-4 {width: 33.33%;}
   .col-s-5 {width: 41.66%;}
   .col-s-6 {width: 50%;}
