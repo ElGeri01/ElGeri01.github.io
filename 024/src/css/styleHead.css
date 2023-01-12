@@ -2,6 +2,7 @@ header{
     display: flex;
     align-self: flex-start;
     position: fixed;  
+    justify-content: center;
 }
 .cabecera{
     position: relative;
@@ -10,7 +11,8 @@ header{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    border-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 .cabecera .contenedor{
     display: flex;/*350 -> 930*/
@@ -18,15 +20,9 @@ header{
     margin-right: 5%;
 }
 .cabecera .contenedor .L{
-    position: relative;
     width: 25%;
-    height: 10%; /*70 -> 171.5*/
-    z-index: 1;
 }
 .cabecera .contenedor .C{
-    position: relative;
     width: 40%;
-    height: 10%; /*70 -> 171.5*/
-    z-index: 1;
     color: var(--cla);
 }
