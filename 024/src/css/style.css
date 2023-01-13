@@ -47,14 +47,14 @@ footer{
     border-top-right-radius: 10px;
 }
 .navigation ul{
-    display: flex;
-    width: 350px; /*350 -> 930*/
+    display: flex; 
+    width: 91.6%;/*350 -> 930*/
     margin: auto;
 }
 .navigation ul li{
     list-style: none;
     position: relative;
-    width: 70px; /*350 / 7 = 50 -> 930 / 5 = 155*/
+    width: 20%; /*350 / 7 = 50 -> 930 / 5 = 155*/
     height: 70px; /*70 -> 171.5*/
     z-index: 1;
 }
@@ -98,7 +98,7 @@ footer{
     
     position: absolute;
     top: -50%;
-    width: 70px; /*70 -> 170*/
+    width: 18%; /*70 -> 170*/
     height: 70px; /*70 -> 170*/
     background: var(--cln);
     border-radius: 50%; /* 50 -> 100*/
@@ -130,23 +130,23 @@ footer{
 
 .navigation ul li:nth-child(1).active ~ .indicator
 {
-    transform: translateX(calc(70px * 0));
+    transform: translateX(calc(100% * 0));
 }
 .navigation ul li:nth-child(2).active ~ .indicator
 {
-    transform: translateX(calc(70px * 1));
+    transform: translateX(calc(100% * 1));
 }
 .navigation ul li:nth-child(3).active ~ .indicator
 {
-    transform: translateX(calc(70px * 2));
+    transform: translateX(calc(100% * 2));
 }
 .navigation ul li:nth-child(4).active ~ .indicator
 {
-    transform: translateX(calc(70px * 3));
+    transform: translateX(calc(100% * 3));
 }
 .navigation ul li:nth-child(5).active ~ .indicator
 {
-    transform: translateX(calc(70px * 4));
+    transform: translateX(calc(100% * 4));
 }
 /* For mobile phones: */
 [class*="col-"] {
