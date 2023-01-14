@@ -5,15 +5,15 @@
 .container #index{
     background-color: aqua;
 }
-#sn{
+.container #sn{
     background-color: rgb(76, 151, 58);
 }
-#carta{
+.container #carta{
     background-color: rgb(255, 0, 0);
 }
-#bebidas{
+.container #bebidas{
     background-color: rgb(247, 0, 255);
 }
-#contacto{
+.container #contacto{
     background-color: rgb(255, 196, 0);
 }

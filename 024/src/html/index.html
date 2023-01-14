@@ -28,19 +28,19 @@
       </div>
     </div>
   </header>
-  <div class="container col-s-11 col-11 " id="index">
+  <div class="Container active col-s-11 col-11 " id="index">
 
   </div>
-  <div class="container" id="sn">
+  <div class="Container" id="sn">
 
   </div>
-  <div class="container" id="carta">
+  <div class="Container" id="carta">
 
   </div>
-  <div class="container" id="bebidas">
+  <div class="Container" id="bebidas">
 
   </div>
-  <div class="container" id="contacto">
+  <div class="Container" id="contacto">
 
   </div>
   <footer class="col col-s-12 col-12">
@@ -97,8 +97,14 @@
         item.classList.remove('active'));
       this.classList.add('active');
     }
+    const Container = document.querySelectorAll('.Container');
+    function ActiveXObject(){
+      Container.forEach((item) => 
+        item.classContainer.remove('active'));
+        this.classContainer.remove('active');
+    }
     list.forEach((item) =>
-      item.addEventListener('click', activeLink));
+      item.addEventListener('click', activeLink, ActiveXObject));
   </script>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
