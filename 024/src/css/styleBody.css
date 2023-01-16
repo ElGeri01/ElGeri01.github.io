@@ -1,19 +1,20 @@
-.container{
+.Container{
+    position: absolute;
     width: 91.66%;
     height: 75%;
 }
-.container #index{
+.Container #index{
     background-color: aqua;
 }
-.container #sn{
+.Container #sn{
     background-color: rgb(76, 151, 58);
 }
-.container #carta{
+.Container #carta{
     background-color: rgb(255, 0, 0);
 }
-.container #bebidas{
+.Container #bebidas{
     background-color: rgb(247, 0, 255);
 }
-.container #contacto{
+.Container #contacto{
     background-color: rgb(255, 196, 0);
 }
