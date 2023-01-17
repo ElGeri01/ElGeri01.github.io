@@ -70,11 +70,11 @@ a .icon{
     color: var(--clna);
 }
 /* For mobile phones: */
-[clnass*="col-"] {
+[class*="col-"] {
   width: 100%;
 }
 
-@media only screen and (min-width: 376px) {
+@media only screen and (min-width: 426px) {
   /* For tablets: */
   .col-s-1 {width: 8.33%;}
   .col-s-2 {width: 16.66%;}
@@ -88,6 +88,8 @@ a .icon{
   .col-s-10 {width: 83.33%;}
   .col-s-11 {width: 91.66%;}
   .col-s-12 {width: 100%;}
+  .C br {display: none;}
+  #index {background-image: url("../img/BackGrounds/cerveza_fondo_Inicio.png");}
 }
 @media only screen and (min-width: 768px) {
   /* For desktop: */
@@ -103,6 +105,19 @@ a .icon{
   .col-10 {width: 83.33%;}
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
+  .C br {display: none;}
+  #index {background-image: url("../img/BackGrounds/cerveza_fondo_Inicio.png");}
+}
+@media only screen and (min-width: 2560px) {
+  a {font-size: 1.75em;}
+  .icon {font-size: 1.75em;}
+}
+@media only screen and (max-width: 320px) {
+  a {font-size: 0.75em;}
+  .icon {font-size: 0.75em;}
+}
+@media only screen and (max-width: 425px) {
+  #index {background-image: url("../img/BackGrounds/cerveza_fondo_Inicio_movil.png");}
 }
 
 @media only screen and (min-height: 802px) {

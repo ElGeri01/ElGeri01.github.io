@@ -18,7 +18,7 @@ header{
 }
 .cabecera .contenedor{
     width: 100%;
-    display: flex;/*350 -> 930*/
+    display: flex;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -28,4 +28,8 @@ header{
 .cabecera .contenedor .C{
     width: 40%;
     color: var(--cla);
+}
+.C{
+    display: flex;
+    align-items: center;
 }
