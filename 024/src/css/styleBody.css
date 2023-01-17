@@ -6,6 +6,7 @@
 .Container #index{
     background-color: aqua;
 }
+<<<<<<< HEAD
 .Container #sn{
     background-color: rgb(76, 151, 58);
 }
@@ -16,5 +17,17 @@
     background-color: rgb(247, 0, 255);
 }
 .Container #contacto{
+=======
+#sn{
+    background-color: rgb(76, 151, 58);
+}
+#carta{
+    background-color: rgb(255, 0, 0);
+}
+#bebidas{
+    background-color: rgb(247, 0, 255);
+}
+#contacto{
+>>>>>>> parent of fa15b0d (a)
     background-color: rgb(255, 196, 0);
 }
