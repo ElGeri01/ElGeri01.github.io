@@ -3,10 +3,12 @@ header{
     align-self: flex-start;
     position: fixed;  
     justify-content: center;
+    width: 100%;
 }
 .cabecera{
     position: relative;
-    height: 10%; /* 70 -> 171.5*/
+    height: 10%; 
+    width: 100%;
     background: var(--cln);
     display: flex;
     justify-content: flex-start;
@@ -15,12 +17,13 @@ header{
     border-bottom-right-radius: 10px;
 }
 .cabecera .contenedor{
+    width: 100%;
     display: flex;/*350 -> 930*/
     margin-left: 5%;
     margin-right: 5%;
 }
 .cabecera .contenedor .L{
-    width: 25%;
+    width: 30%;
 }
 .cabecera .contenedor .C{
     width: 40%;

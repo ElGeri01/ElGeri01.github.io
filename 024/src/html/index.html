@@ -1,116 +1,91 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
-  <title>Cervecería 024</title>
-  <link rel="icon" type="image/x-icon" href="/024/src/img/FAVICON.ico">
-  <link rel="stylesheet" type="text/css" href="/024/src/css/style.css">
-  <link rel="stylesheet" type="text/css" href="/024/src/css/styleHead.css">
-  <link rel="stylesheet" type="text/css" href="/024/src/css/styleBody.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>home</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="img/FAVICON.ico">
+  <link href="/024/src/css/style.css" rel="stylesheet">
+  <link href="/024/src/css/styleHead.css" rel="stylesheet">
+  <link href="/024/src/css/styleBody.css" rel="stylesheet">
 </head>
 
-<body class="col col-s-12 col-12">
-
-  <header class="col col-s-12 col-12">
-
-    <div class="cabecera col col-11 col-s-11">
-      <div class="contenedor col">
+<body>
+  <header>
+    <div class="cabecera col-11 col-s-11">
+      <div class="contenedor">
         <div class=" L col-s-3 col-3">
-          <img src="024/src/img/024.png" alt="">
+          <img src="img/024.png" alt="">
         </div>
         <div class="C col-s-6 col-6 title">
           <h1>Cervecería <br> 024</h1>
         </div>
         <div clas="L col-s-3 col-3">
-
+          <!-- Añadir buscador -->
         </div>
       </div>
     </div>
   </header>
-  <div class="container col-s-11 col-11 " id="index">
-
-  </div>
-  <div class="container" id="sn">
-
-  </div>
-  <div class="container" id="carta">
-
-  </div>
-  <div class="container" id="bebidas">
-
-  </div>
-  <div class="container" id="contacto">
-
-  </div>
-  <footer class="col col-s-12 col-12">
-    <div class="navigation col-11 col-s-11">
-      <ul class="col-11 col-s-11">
-        <li class="list active">
-          <a href="#index">
-            <span class="icon">
-              <ion-icon md="home-outline" ios="home-sharp"></ion-icon>
-            </span>
-            <span class="text">Inicio</span>
-          </a>
-        </li>
-        <li class="list">
-          <a href="#sn">
-            <span class="icon">
-              <ion-icon md="people-outline" ios="people-Sharp"></ion-icon>
-            </span>
-            <span class="text">Sobre Nosostros</span>
-          </a>
-        </li>
-        <li class="list">
-          <a href="#carta">
+  <section class="col-s-11 col-11" id="index">
+    <div class="titular">
+      <h1>Cervecería 024,
+        Gran variedad de cervezas
+        Carta raciones y tostas
+        Ambiente agradable</h1>
+    </div>
+    <div class="ucrania col-s-2 col-2">
+      <img src="img/BanderaUcraniaPaz.png" alt="Paz Ucrania">
+    </div>
+    <div class="subt col-s-10 col-10">
+      <h5>El Hogar de la cerveza</h5>
+      <p>Ven a disfrutar de cervezas de todo el mundo y descubre sabores que jamás te imaginarías.</p>
+    </div>
+  </section>
+  <footer>
+    <div class="menu col-11 col-s-11">
+      <div class="container col-3 col-s-3">
+        <a href="024/src/html/index.html">
+          <span class="icon">
+            <ion-icon md="home-outline" ios="home-sharp"></ion-icon>
+          </span>
+          <span class="text">Inicio</span>
+        </a>
+      </div>
+      <div class="container col-3 col-s-3">
+        <a href="024/src/html/sn.html">
+          <span class="icon">
+            <ion-icon md="people-outline" ios="people-Sharp"></ion-icon>
+          </span>
+          <span class="text">Sobre Nosostros</span>
+        </a>
+      </div>
+      <div class="container col-3 col-s-3">
+        <a href="024/src/html/carta.html">
             <span class="icon">
               <ion-icon md="restaurant-outline" ios="restaurant-sharp"></ion-icon>
             </span>
             <span class="text">Carta</span>
           </a>
-        </li>
-        <li class="list">
-          <a href="#bebidas">
-            <span class="icon">
-              <ion-icon md="beer-outline" ios="beer-sharp"></ion-icon>
-            </span>
-            <span class="text">Bebidas</span>
-          </a>
-        </li>
-        <li class="list">
-          <a href="#">
-            <span class="icon">
-              <ion-icon md="call-outline" ios="call-sharp"></ion-icon>
-            </span>
-            <span class="text">Contacto</span>
-          </a>
-        </li>
-        <div class="indicator"></div>
-      </ul>
+      </div>
+      <div class="container col-3 col-s-3">
+        <a href="024/src/html/bebidas.html">
+          <span class="icon">
+            <ion-icon md="beer-outline" ios="beer-sharp"></ion-icon>
+          </span>
+          <span class="text">Bebidas</span>
+        </a>
+      </div>
+      <div class="container col-3 col-s-3">
+        <a href="024/src/html/contacto.html">
+          <span class="icon">
+            <ion-icon md="call-outline" ios="call-sharp"></ion-icon>
+          </span>
+          <span class="text">Contacto</span>
+        </a>
+      </div>
     </div>
   </footer>
-  <script>
-    const list = document.querySelectorAll('.list');
-    function activeLink() {
-      list.forEach((item) =>
-        item.classList.remove('active'));
-      this.classList.add('active');
-    }
-<<<<<<< HEAD
-    const Container = document.querySelectorAll('.Container');
-    function ActiveXObject(){
-      Container.forEach((item) => 
-        item.classContainer.remove('active'));
-        this.classContainer.remove('active');
-    }
-    Container.forEach((item) =>
-      item.addEventListener('click', activeLink, ActiveXObject));
-=======
-    list.forEach((item) =>
-      item.addEventListener('click', activeLink));
->>>>>>> parent of fa15b0d (a)
-  </script>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>

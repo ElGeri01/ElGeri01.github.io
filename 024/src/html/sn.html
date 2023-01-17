@@ -1,90 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
-  <title>Cervecería 024</title>
-  <link rel="icon" type="image/x-icon" href="/024/src/img/FAVICON.ico">
-  <link rel="stylesheet" type="text/css" href="/024/src/css/style.css">
-  <link rel="stylesheet" type="text/css" href="/024/src/css/styleHead.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>home</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="../img/FAVICON.ico">
+  <link href="../css/style.css" rel="stylesheet">
+  <link href="../css/styleHead.css" rel="stylesheet">
+  <link href="../css/styleBody.css" rel="stylesheet">
 </head>
 
-<body class="col col-s-12 col-12">
-
-  <header class="col col-s-12 col-12">
-
-    <div class="cabecera col col-11 col-s-11">
-      <div class="contenedor col">
+<body>
+  <header>
+    <div class="cabecera col-11 col-s-11">
+      <div class="contenedor">
         <div class=" L col-s-3 col-3">
-          <img src="024/src/img/024.png" alt="">
+          <img src="../img/024.png" alt="">
         </div>
         <div class="C col-s-6 col-6 title">
           <h1>Cervecería <br> 024</h1>
         </div>
         <div clas="L col-s-3 col-3">
-
+          <!-- Añadir buscador -->
         </div>
       </div>
     </div>
   </header>
+  <section class="col-s-11 col-11">
 
-  <footer class="col col-s-12 col-12">
-    <div class="navigation col-11 col-s-11">
-      <ul>
-        <li class="list">
-          <a href="/024/src/html/index.html">
-            <span class="icon">
-              <ion-icon md="home-outline" ios="home-sharp"></ion-icon>
-            </span>
-            <span class="text">Inicio</span>
-          </a>
-        </li>
-        <li class="list active">
-          <a href="/024/src/html/sn.html">
-            <span class="icon">
-              <ion-icon md="people-outline" ios="people-Sharp"></ion-icon>
-            </span>
-            <span class="text">Sobre Nosostros</span>
-          </a>
-        </li>
-        <li class="list">
-          <a href="/024/src/html/carta.html">
+  </section>
+  <footer>
+    <div class="menu col-11 col-s-11">
+      <div class="container col-3 col-s-3">
+        <a href="html/index.html">
+          <span class="icon">
+            <ion-icon md="home-outline" ios="home-sharp"></ion-icon>
+          </span>
+          <span class="text">Inicio</span>
+        </a>
+      </div>
+      <div class="container col-3 col-s-3">
+        <a href="html/sn.html">
+          <span class="icon">
+            <ion-icon md="people-outline" ios="people-Sharp"></ion-icon>
+          </span>
+          <span class="text">Sobre Nosostros</span>
+        </a>
+      </div>
+      <div class="container col-3 col-s-3">
+        <a href="html/carta.html">
             <span class="icon">
               <ion-icon md="restaurant-outline" ios="restaurant-sharp"></ion-icon>
             </span>
             <span class="text">Carta</span>
           </a>
-        </li>
-        <li class="list">
-          <a href="024/src/html/bebidas.html">
-            <span class="icon">
-              <ion-icon md="beer-outline" ios="beer-sharp"></ion-icon>
-            </span>
-            <span class="text">Bebidas</span>
-          </a>
-        </li>
-        <li class="list">
-          <a href="024/src/html/contacto.html">
-            <span class="icon">
-              <ion-icon md="call-outline" ios="call-sharp"></ion-icon>
-            </span>
-            <span class="text">Contacto</span>
-          </a>
-        </li>
-        <div class="indicator"></div>
-      </ul>
+      </div>
+      <div class="container col-3 col-s-3">
+        <a href="html/bebidas.html">
+          <span class="icon">
+            <ion-icon md="beer-outline" ios="beer-sharp"></ion-icon>
+          </span>
+          <span class="text">Bebidas</span>
+        </a>
+      </div>
+      <div class="container col-3 col-s-3">
+        <a href="html/contacto.html">
+          <span class="icon">
+            <ion-icon md="call-outline" ios="call-sharp"></ion-icon>
+          </span>
+          <span class="text">Contacto</span>
+        </a>
+      </div>
     </div>
   </footer>
-  <script>
-    const list = document.querySelectorAll('.list');
-    function activeLink() {
-      list.forEach((item) =>
-        item.classList.remove('active'));
-      this.classList.add('active');
-    }
-    list.forEach((item) =>
-      item.addEventListener('click', activeLink));
-  </script>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
