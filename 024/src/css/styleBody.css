@@ -6,6 +6,7 @@ section{
     position: absolute;
     width: 91.66%;
     justify-content: center;
+    overflow-x: hidden;
     
 }
 section .col-s-6 .col-2{
