@@ -90,6 +90,7 @@ a .icon{
   .col-s-12 {width: 100%;}
   .C br {display: none;}
   #index {background-image: url("../img/BackGrounds/cerveza_fondo_Inicio.png");}
+  #sn {background-image: url("../img/BackGrounds/Background_SN.png");}
 }
 @media only screen and (min-width: 768px) {
   /* For desktop: */
@@ -107,6 +108,7 @@ a .icon{
   .col-12 {width: 100%;}
   .C br {display: none;}
   #index {background-image: url("../img/BackGrounds/cerveza_fondo_Inicio.png");}
+  #sn {background-image: url("../img/BackGrounds/Background_SN.png");}
 }
 @media only screen and (min-width: 2560px) {
   a {font-size: 1.75em;}
@@ -118,6 +120,7 @@ a .icon{
 }
 @media only screen and (max-width: 425px) {
   #index {background-image: url("../img/BackGrounds/cerveza_fondo_Inicio_movil.png");}
+  #sn {background-image: url("../img/BackGrounds/Background_SN.png");}
 }
 
 @media only screen and (min-height: 802px) {
