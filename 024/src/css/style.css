@@ -22,7 +22,7 @@
     box-sizing: border-box;
     font-family: 'fuente';
     flex-wrap: wrap;
-    overflow-x:hidden;
+    overflow-x: hidden;
 }
 body {
     display: flex;
