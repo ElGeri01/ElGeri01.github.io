@@ -94,6 +94,7 @@ a .icon{
   #index {background-image: url("../img/BackGrounds/cerveza_fondo_Inicio.png");}
   #sn {background-image: url("../img/BackGrounds/Background_SN.png");}
   iframe {width: 75%;height: 25%; border: 0;}
+  .movil{display: none;}
 }
 @media only screen and (min-width: 768px) {
   /* For desktop: */
