@@ -97,6 +97,7 @@ a .icon{
   #sn {background-image: url("../img/BackGrounds/Background_SN.png");}
   iframe {width: 75%;height: 25%; border: 0;}
   .movil{display: none;}
+  .nombre br {display: none;}
 }
 @media only screen and (min-width: 768px) {
   /* For desktop: */
