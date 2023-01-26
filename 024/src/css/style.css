@@ -14,6 +14,8 @@
     --clv: #00ff00;
     --clr: #222327;
     --clna: #fd763f;
+    --clnat: #fd753f80;
+    --clg:#292828;
  }
 
 * {
@@ -28,7 +30,7 @@ body {
     display: flex;
     justify-content: center;
     min-height: 100vh;
-    background-color: var(--clm);
+    background-color: var(--clg);
     align-items: center;
     align-content: center;
     flex-wrap: wrap;
@@ -127,4 +129,5 @@ a .icon{
   #index {background-image: url("../img/BackGrounds/cerveza_fondo_Inicio_movil.png");}
   #sn {background-image: url("../img/BackGrounds/Background_SN.png");}
   iframe {width: 75%; height: 25%; border: 0;}
+  .col {width: 41.66%;}
 }

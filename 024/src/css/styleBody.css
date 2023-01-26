@@ -93,8 +93,36 @@ h2{
     width: 100%;
 }
 article{
+margin: 2%;
 width: 41.66%;
 border-radius: 10%;
 border: 1px solid var(--cla);
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+background-color: var(--clm);
+box-shadow: 10px 10px var(--clnat);
 }
-
+.nombre{
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+}
+main img{
+    width: 80%;
+    margin: 2%;
+}
+.precio{
+    margin: 2%;
+}
+/*Carta*/
+#carta{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
