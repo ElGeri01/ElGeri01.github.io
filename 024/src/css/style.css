@@ -99,8 +99,6 @@ a .icon{
   iframe {width: 75%;height: 25%; border: 0;}
   .movil{display: none;}
   .nombre br {display: none;}
-  #contacto > .titular > h1 {display: none;}
-  #contacto > .titular > h6 {display: none;}
 }
 @media only screen and (min-width: 768px) {
   /* For desktop: */
@@ -120,8 +118,6 @@ a .icon{
   #index {background-image: url("../img/BackGrounds/cerveza_fondo_Inicio.png");}
   #sn {background-image: url("../img/BackGrounds/Background_SN.png");}
   iframe {width: 75%;height: 45%; border: 2,var(--cla),solid;}
-  #contacto > .titular > h3 {display: none;}
-  #contacto > .titular > h6 {display: none;}
 }
 @media only screen and (min-width: 2560px) {
   a {font-size: 1.75em;}
@@ -137,6 +133,4 @@ a .icon{
   #contacto {background-image: url("../img/BackGrounds/Background_contacto_movil.png");}
   iframe {width: 75%; height: 25%; border: 0;}
   .col {width: 41.66%;}
-  #contacto > .titular > h1 {display: none;}
-  #contacto > .titular > h3 {display: none;}
 }
